@@ -391,6 +391,11 @@
 	background-color: transparent;
 }
 
+.icon-wrap-2 {
+	margin: 0 auto;
+	display: none;
+}
+
 .section-4 {
 	padding: 142px 10px 130px;
 	background-color: #fbfbfb;
@@ -854,6 +859,18 @@ p {
 	text-align: center;
 	line-height: 1.3;
 	vertical-align: top;
+}
+
+@media (max-width: 1439px) {
+
+.icon-wrap-2 {
+	display: flex;
+}
+
+.icon-wrap-1 {
+	display: none;
+}
+
 }
 
 @media (max-width: 767px) {
